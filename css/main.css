@@ -335,6 +335,7 @@ footer .social-links {
     }
 
 
+
 } 
 
 @media only screen and (min-width: 1024px) {
@@ -348,20 +349,17 @@ footer .social-links {
         align-self: flex-start;
         width: 100%;
     }
-    .bio-info{
-        padding: 0;
-    }
-    .contact-form{
-        padding: 0;
-    }
+
     .container .bio-info{
-        flex-basis: 40%;
+        flex-basis: 45%;
+        margin-left: 1em;
+        padding: 0 auto 0 1em;
     }
-    .container .contact-form{
-        flex-basis: 60%;
+    .container .contact{
+        flex-basis: 45%;
+        margin-right: 1em;
+        padding: 0 1em 0 auto;
     }
-
-
 
 }
 
