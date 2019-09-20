@@ -20,7 +20,8 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
 }
 
 .src-only {
@@ -74,24 +75,30 @@ p{
 .big-hero p {
     font-size: 0.7em;;
     color: #D7DEE6;
-
+    padding-bottom: 0;
 }
 
 /* Social links*/
 .social-links{
     list-style: none;
     padding: 0;
-    margin-top: 3em;
+    margin-top: 0em;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 4.0em;
 
 }
 
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 150px;
+    padding: 0.15em;
+    display: flex;
+    margin-top: -50px;
+    position: relative;
+    top: 25px;
 }
 
 
@@ -165,6 +172,9 @@ p{
     margin: 2em;
 }
 
+.bio-info{
+    padding: 0em 3em 0em 3em;
+}
 .bio-info img{
    width: 200px;
 }
@@ -191,6 +201,7 @@ p{
 .contact-form {
     display: flex;
     flex-direction: column;
+    padding: 0em 3em 2em 3em;
 }
 
 .contact-form input, .contact-form textarea{
@@ -248,16 +259,21 @@ footer .social-links {
     text-align: left;
     padding: 1em;
 }
+
 .menu li {
     display: block;
     padding: 0.5em;
     margin-top: 5px;
 }
 
+
 .menu li a {
     color: white;
     text-decoration: none;
-    
+        
+}
+.menu li a:hover{
+    color: red;
 }
 
 /* Pesonalizando estilo para tablets*/
@@ -287,6 +303,13 @@ footer .social-links {
         display: block;
     }
 
+    .fa-arrow-circle-down{
+        font-size: 60px;
+        color: #0AC693;
+        margin-bottom: 1em;
+        margin-top: -1em;
+    }
+
     .hide-desktop {
         display: none;
     }
@@ -309,9 +332,21 @@ footer .social-links {
 
 @media only screen and (min-width: 1024px) {
 
-       /*TODO: FALTA CSS */
-
-
+       /*TODO: FALTA CSS 
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container h2{
+        display: block;
+    }
+    .container .bio-info{
+        flex-basis: 60%;
+    }
+    .container .contact-form{
+        flex-basis: calc(40% - 2rem);
+    }
+*/
 
 }
 
