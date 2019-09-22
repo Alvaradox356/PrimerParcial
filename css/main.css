@@ -338,7 +338,7 @@ footer .social-links {
         display: flex;
         justify-content: flex-start;
         flex-flow: row wrap;
-        margin: auto;
+        margin: 0 5% 0 5%;
     }
 
 } 
